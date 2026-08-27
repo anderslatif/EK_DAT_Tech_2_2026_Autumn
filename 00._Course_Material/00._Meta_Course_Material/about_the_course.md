@@ -26,7 +26,7 @@ Prerequisite to go to the exam.
 
 1. **Mandatory I**: Cross-disciplinary work (Projekt #1)
 
-2. **Mandatory II**: Proof of solved exercises. (Do not delete the repositories created to solve the exercises in this course. You just need to link to them to solve this mandatory)
+2. **Mandatory II**: Proof of exercise solutions. (Do not delete the repositories created to solve the exercises in this course. You just need to link to them to solve this mandatory)
 
 ---
 
