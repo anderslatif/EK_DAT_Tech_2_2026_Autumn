@@ -55,8 +55,6 @@ link:00._Course_Material/01._Docker/03._Exercises/04._Cleaning_up_Containers_and
 link:00._Course_Material/01._Docker/03._Exercises/05._Dockerizing_a_Maven_project.md[05. Dockerizing a Maven project]
 
 a|
-link:00._Course_Material/01._Docker/04._Homework/Bashcrawl.md[Bashcrawl]
-
 link:00._Course_Material/01._Docker/04._Homework/Learn_more_about_Docker.md[Learn more about Docker]
 
 a|
