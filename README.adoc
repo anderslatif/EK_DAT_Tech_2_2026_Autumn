@@ -11,7 +11,7 @@ link:00._Course_Material/00._Meta_Course_Material/about_the_course.md[About the 
 
 [width="100%",cols="6%,14%,14%,16%,12%,38%",options="header",]
 |===
-| Date | Topics | Before Class | Exercises | Homework | Exam Questions
+| Date | Topics | Before Class | Exercises | Homework After | Exam Questions
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
