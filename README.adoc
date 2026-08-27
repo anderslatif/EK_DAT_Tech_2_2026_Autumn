@@ -7,20 +7,32 @@ link:00._Course_Material/00._Meta_Course_Material/about_the_course.md[About the 
 
 == Semester Plan
 
-**Taught on**: Thursday
+**Taught on**: Monday, Thursday
 
-[width="100%",cols="10%,7%,24%,15%,15%,15%,14%",options="header",]
+[width="100%",cols="6%,14%,14%,16%,12%,38%",options="header",]
 |===
-| Title | Date | Description | Before Class | Exercises | Homework | Learning Goals
+| Date | Topics | Before Class | Exercises | Homework | Exam Questions
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
-| 1
-| Aug. 27th
+a|
+**1**
+
+Aug. +
+27th
 
 a|
-Introduction
+link:00._Course_Material/01._Docker/01._Slides/01._Introduction.md[Introduction]
 
+link:00._Course_Material/01._Docker/01._Slides/02._Docker.md[Docker]
+
+link:00._Course_Material/01._Docker/01._Slides/03._Docker_Get_Started.md[Docker Get Started]
+
+link:00._Course_Material/01._Docker/01._Slides/04._Docker_Networks.md[Docker Networks]
+
+link:00._Course_Material/01._Docker/01._Slides/05._Docker_Volumes.md[Docker Volumes]
+
+link:00._Course_Material/01._Docker/01._Slides/06._Dockerfile.md[Dockerfile]
 
 a|
 link:00._Course_Material/01._Docker/02._Before_Class/Course_Preparation_Work.md[Course Preparation Work]
@@ -32,112 +44,339 @@ link:00._Course_Material/01._Docker/02._Before_Class/Learn_about_Docker.md[Learn
 link:00._Course_Material/01._Docker/02._Before_Class/SSH_Key_GitHub.md[SSH Key GitHub]
 
 a|
-// Exercises
+link:00._Course_Material/01._Docker/03._Exercises/01._Docker_Exposing_Ports.md[01. Docker Exposing Ports]
+
+link:00._Course_Material/01._Docker/03._Exercises/02._Docker_Execute_Commands.md[02. Docker Execute Commands]
+
+link:00._Course_Material/01._Docker/03._Exercises/03._Docker_Bind_mounts_and_Volumes.md[03. Docker Bind mounts and Volumes]
+
+link:00._Course_Material/01._Docker/03._Exercises/04._Cleaning_up_Containers_and_Images.md[04. Cleaning up Containers and Images]
+
+link:00._Course_Material/01._Docker/03._Exercises/05._Dockerizing_a_Maven_project.md[05. Dockerizing a Maven project]
 
 a|
-// Homework
+link:00._Course_Material/01._Docker/04._Homework/Bashcrawl.md[Bashcrawl]
+
+link:00._Course_Material/01._Docker/04._Homework/Learn_more_about_Docker.md[Learn more about Docker]
 
 a|
-// Can navigate the terminal: `ls`, `cd`, `whoami`, `pwd`.
+**Docker**
+
+1. What is Docker?
+2. What is a Docker Image?
+3. What is a Docker Container?
+4. Run a Docker Container on your local OS.
+5. Show the Docker command to:
+    a. List all images
+    b. List all containers
+    c. Create a container
+    d. Stop/start a container
+    e. Build an image
+    f. Delete an image
+    g. Delete a container
+6. Show how to manage ports on a Docker container.
+7. Demonstrate how you can access the MySQL instance, running inside a container, for 
+example to create a new database, create tables, add rows etc.
+
+Bonus: Explain the purpose of multi-stage builds, volume management.
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+
+a|
+**2**
+
+Sept. +
+3rd
+
+a|
+Docker Compose
+
+Docker Compose MySQL
+
+Docker Compose Spring Boot
+
+More Docker Compose
+
+// link:00._Course_Material/02._Docker_Compose/01._Slides/01._Docker_Compose.md[Docker Compose]
+
+// link:00._Course_Material/02._Docker_Compose/01._Slides/02._Docker_Compose_MySQL.md[Docker Compose MySQL]
+
+// link:00._Course_Material/02._Docker_Compose/01._Slides/03._Docker_Compose_Spring_Boot.md[Docker Compose Spring Boot]
+
+// link:00._Course_Material/02._Docker_Compose/01._Slides/04._More_Docker_Compose.md[More Docker Compose]
+
+a|
+link:00._Course_Material/02._Docker_Compose/02._Before_Class/01._Refresh_YAML_Syntax.md[Refresh YAML Syntax]
+
+a|
+// link:00._Course_Material/02._Docker_Compose/03._Exercises/00._Setup.md[Setup]
+
+// link:00._Course_Material/02._Docker_Compose/03._Exercises/01._Dockerfile.md[Dockerfile]
+
+// link:00._Course_Material/02._Docker_Compose/03._Exercises/02._Dockerfile_Multi.md[Dockerfile Multi]
+
+// link:00._Course_Material/02._Docker_Compose/03._Exercises/03._Docker_Network.md[Docker Network]
+
+// link:00._Course_Material/02._Docker_Compose/03._Exercises/04._Docker_Compose.md[Docker Compose]
+
+// link:00._Course_Material/02._Docker_Compose/03._Exercises/05._Docker_Compose_Multi.md[Docker Compose Multi]
+
+// link:00._Course_Material/02._Docker_Compose/03._Exercises/06._Docker_Compose_.env.md[Docker Compose .env]
+
+// link:00._Course_Material/02._Docker_Compose/03._Exercises/07._Docker_Compose_Enhanced.md[Docker Compose Enhanced]
+
+// link:00._Course_Material/02._Docker_Compose/03._Exercises/08._Docker_Compose_Network.md[Docker Compose Network]
+
+// link:00._Course_Material/02._Docker_Compose/03._Exercises/09._Docker_Compose_Reverse_Proxy.md[Docker Compose Reverse Proxy]
+
+a|
+// link:00._Course_Material/02._Docker_Compose/04._Homework/01._Docker_Cheat_Sheet.md[Docker Cheat Sheet]
+
+// link:00._Course_Material/02._Docker_Compose/04._Homework/02._Learn_Advanced_About_Docker.md[Learn Advanced About Docker]
+
+a|
+
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+
+a|
+**3**
+
+Sept. +
+7th
+
+**NOTE**
+
+**MONDAY**
+
+**MORNING**
+
+a|
+GitHub Actions
+
+Hashing and Caching
+
+CI/CD
+
+GitHub Secrets
+
+// link:00._Course_Material/03._GitHub_Actions/01._Slides/01._GitHub_Actions.md[GitHub Actions]
+
+// link:00._Course_Material/03._GitHub_Actions/01._Slides/02._Hashing_and_Caching.md[Hashing and Caching]
+
+// link:00._Course_Material/03._GitHub_Actions/01._Slides/03._CI_CD.md[CI/CD]
+
+// link:00._Course_Material/03._GitHub_Actions/01._Slides/04._GitHub_Secrets.md[GitHub Secrets]
+
+a|
+// link:00._Course_Material/03._GitHub_Actions/02._Before_Class/01._Refresh_GitHub_Actions_Knowledge.md[Refresh GitHub Actions Knowledge]
+
+a|
+// link:00._Course_Material/03._GitHub_Actions/03._Exercises/01._Hello_GitHub_Action.md[Hello GitHub Action]
+
+// link:00._Course_Material/03._GitHub_Actions/03._Exercises/02._Maven-build.md[Maven Build]
+
+// link:00._Course_Material/03._GitHub_Actions/03._Exercises/03._Caching_Dependencies.md[Caching Dependencies]
+
+// link:00._Course_Material/03._GitHub_Actions/03._Exercises/04._Hash_Pinning.md[Hash Pinning]
+
+// link:00._Course_Material/03._GitHub_Actions/03._Exercises/05._Docker_GitHub_Action.md[Docker GitHub Action]
+
+// link:00._Course_Material/03._GitHub_Actions/03._Exercises/06._Reusable_Workflows.md[Reusable Workflows]
+
+// link:00._Course_Material/03._GitHub_Actions/03._Exercises/07._Push_GHCR.md[Push GHCR]
+
+// link:00._Course_Material/03._GitHub_Actions/03._Exercises/08_GHCR_images.md[GHCR Images]
+
+a|
+// link:00._Course_Material/03._GitHub_Actions/04._Homework/CI_CD_pairing_game.md[CI/CD Pairing Game]
+
+a|
+
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+
+a|
+**4**
+
+Sept. +
+17th
+
+a|
+Linux
+
+Commands
+
+Text Editors
+
+Ownership and File Permissions
+
+Encryption SSH
+
+// link:00._Course_Material/04._Linux/01._Slides/01._Linux.md[Linux]
+
+// link:00._Course_Material/04._Linux/01._Slides/02._Commands.md[Commands]
+
+// link:00._Course_Material/04._Linux/01._Slides/03._Text_Editors.md[Text Editors]
+
+// link:00._Course_Material/04._Linux/01._Slides/04._Ownership_and_File_Permissions.md[Ownership and File Permissions]
+
+// link:00._Course_Material/04._Linux/01._Slides/05._Encryption_SSH.md[Encryption SSH]
+
+a|
+// link:00._Course_Material/04._Linux/02._Before_Class/01._Refresh_Terminal_Commands.md[Refresh Terminal Commands]
+
+a|
+// link:00._Course_Material/04._Linux/03._Exercises/00._Linux_Docker.md[Linux Docker]
+
+// link:00._Course_Material/04._Linux/03._Exercises/01._User_Management.md[User Management]
+
+// link:00._Course_Material/04._Linux/03._Exercises/02._Processes_and_Signals.md[Processes and Signals]
+
+// link:00._Course_Material/04._Linux/03._Exercises/03._Bitmasks_Optional.md[Bitmasks - Optional]
+
+a|
+// link:00._Course_Material/04._Linux/04._Homework/01._Deploy_bashcrawl_to_GHCR.md[Deploy Bashcrawl to GHCR]
+
+// link:00._Course_Material/04._Linux/04._Homework/02._Linux_Terminal_Exercises.md[Linux Terminal Exercises]
+
+a|
+
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+a|
+**5**
+
+Sept. +
+24th
+
+a|
+Cloud
+
+VMs in Azure
+
+// link:00._Course_Material/05._Cloud/01._Slides/01._Cloud.md[Cloud]
+
+// link:00._Course_Material/05._Cloud/01._Slides/02._VMs_in_Azure.md[VMs in Azure]
+
+a|
+
+a|
+// link:00._Course_Material/05._Cloud/03._Exercises/00._Create_a_VM.md[Create a VM]
+
+// link:00._Course_Material/05._Cloud/03._Exercises/01._VM_Users.md[VM Users]
+
+// link:00._Course_Material/05._Cloud/03._Exercises/02._VM_Basic_Management.md[VM Basic Management]
+
+// link:00._Course_Material/05._Cloud/03._Exercises/03._Docker_Installation.md[Docker Installation]
+
+// link:00._Course_Material/05._Cloud/03._Exercises/04-deploy.md[Deploy]
+
+// link:00._Course_Material/05._Cloud/03._Exercises/05-firewall.md[Firewall]
+
+a|
+
+a|
 
 
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
-| 2
-| 
+a|
+**6**
 
+Oct. +
+1st
+a|
+Cross-disciplinary - Project #1
+a|
+No Lecture
+a|
+No Lecture
+a|
 a|
 
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+
 a|
+**7**
 
-
+Oct. +
+8th
+a|
+Cross-disciplinary - Project #1
+a|
+No Lecture
 a| 
-
+No Lecture
 a|
-
 a|
-
 
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
-| 3
-| 
 
 a|
+**8**
 
+Oct. +
+15th
 a|
-
+Holiday
+a|
+No Lecture
 a| 
-
+No Lecture
 a|
 
 a|
-
-
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
-| 4
-| 
+a|
+**9**
+
+Oct. +
+22nd
 
 a|
+IP Addresses
+
+Hostnames
+
+DNS
+
+DNS Resolution
+
+// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/01._Slides/01._IP_Addreses.md[IP Addresses]
+
+// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/01._Slides/02._Hostnames.md[Hostnames]
+
+// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/01._Slides/03._DNS.md[DNS]
+
+// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/01._Slides/04._DNS_Resolution.md[DNS Resolution]
 
 a|
+// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/02._Before_Class/dns_intro_video.md[DNS Intro Video]
 
 a|
+// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/03._Exercises/01._dns_lookup.md[DNS Lookup]
+
+// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/03._Exercises/02._buying_domains.md[Buying Domains]
+
+// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/03._Exercises/03._https_caddy.md[HTTPS Caddy]
 
 a|
+// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/04._Homework/01-subnet-mask.md[Subnet Mask]
 
-a|
+// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/04._Homework/02-subnet-cheatsheet.md[Subnet Cheatsheet]
 
+// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/04._Homework/03-ip-addresses.md[IP Addresses]
 
-// ------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-| 5
-|
-
-a|
-
-a|
-
-a| 
-
-a|
-
-a|
-
-
-
-// ------------------------------------------------------------------------------------------------------------------------------------------------
-
-| 6
-|
-
-a|
-
-a|
-
-a|
-
-a|
-
-a|
-
-
-// ------------------------------------------------------------------------------------------------------------------------------------------------
-
-| 7
-| 
-a|
-
-a|
-
-a| 
-
-a|
+// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/04._Homework/URL_anatomy_quiz.md[URL Anatomy Quiz]
 
 a|
 
@@ -145,29 +384,42 @@ a|
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-| 8
-|
+a|
+**10**
+
+Oct. +
+29th
 
 a|
+Protocols
+
+TCP UDP
+
+More Networking Topics
+
+HTTP(S)
+
+Wireshark
+
+// link:00._Course_Material/07._Network/01._Slides/01._Protocols.md[Protocols]
+
+// link:00._Course_Material/07._Network/01._Slides/02._TCP_UDP.md[TCP UDP]
+
+// link:00._Course_Material/07._Network/01._Slides/03._More_Networking_Topics.md[More Networking Topics]
+
+// link:00._Course_Material/07._Network/01._Slides/05._HTTP(S).md[HTTP(S)]
+
+// link:00._Course_Material/07._Network/01._Slides/06._Wireshark.md[Wireshark]
 
 a|
+// link:00._Course_Material/07._Network/02._Before_Class/install_wireshark.md[Install Wireshark]
 
-a| 
-
-a|
-
-a|
-
-// ------------------------------------------------------------------------------------------------------------------------------------------------
-
-| 9
-|
+// link:00._Course_Material/07._Network/02._Before_Class/network_protocol_intro_video.md[Network Protocol Intro Video]
 
 a|
+// link:00._Course_Material/07._Network/03._Exercises/01-ip-addresses.md[IP Addresses]
 
-a|
-
-a|
+// link:00._Course_Material/07._Network/03._Exercises/02-wireshark.md[Wireshark]
 
 a|
 
@@ -177,21 +429,117 @@ a|
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-| 10
-|
+a|
+**11**
+
+Nov. +
+5th
 
 a|
-
+No Lecture
 a|
-
+No Lecture
 a|
-
+No Lecture
 a|
 
 a|
 
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
+
+a|
+**12**
+
+Nov. +
+12th
+
+a|
+Cross-disciplinary - Project #1
+a|
+No Lecture
+a|
+No Lecture
+a|
+
+a|
+
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+
+a|
+**13**
+
+Nov. +
+19th
+
+a|
+Conference
+a|
+No Lecture
+a|
+No Lecture
+a|
+
+a|
+
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+
+a|
+**14**
+
+Nov. +
+26th
+
+a|
+Cross-disciplinary - Final Project
+a|
+No Lecture
+a|
+No Lecture
+a|
+a|
+
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+
+a|
+**15**
+
+Dec. +
+3rd
+
+a|
+Cross-disciplinary - Final Project
+a|
+No Lecture
+a|
+No Lecture
+a|
+a|
+
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+
+a|
+**16**
+
+Dec. +
+10th
+
+a|
+Cross-disciplinary - Final Project
+a|
+No Lecture
+a|
+No Lecture
+a|
+a|
+
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 |===
 
