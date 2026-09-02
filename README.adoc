@@ -73,8 +73,6 @@ a|
     f. Delete an image
     g. Delete a container
 6. Show how to manage ports on a Docker container.
-7. Demonstrate how you can access the MySQL instance, running inside a container, for 
-example to create a new database, create tables, add rows etc.
 
 Bonus: Explain the purpose of multi-stage builds, volume management.
 
@@ -87,52 +85,66 @@ Sept. +
 3rd
 
 a|
-Docker Compose
+// Docker Compose
 
-Docker Compose MySQL
+// Docker Compose MySQL
 
-Docker Compose Spring Boot
+// Docker Compose Spring Boot
 
-More Docker Compose
+// More Docker Compose
 
-// link:00._Course_Material/02._Docker_Compose/01._Slides/01._Docker_Compose.md[Docker Compose]
+link:00._Course_Material/02._Docker_Compose/01._Slides/01._Docker_Compose.md[Docker Compose]
 
-// link:00._Course_Material/02._Docker_Compose/01._Slides/02._Docker_Compose_MySQL.md[Docker Compose MySQL]
+link:00._Course_Material/02._Docker_Compose/01._Slides/02._Docker_Compose_MySQL.md[Docker Compose MySQL]
 
-// link:00._Course_Material/02._Docker_Compose/01._Slides/03._Docker_Compose_Spring_Boot.md[Docker Compose Spring Boot]
+link:00._Course_Material/02._Docker_Compose/01._Slides/03._Docker_Compose_Spring_Boot.md[Docker Compose Spring Boot]
 
-// link:00._Course_Material/02._Docker_Compose/01._Slides/04._More_Docker_Compose.md[More Docker Compose]
+link:00._Course_Material/02._Docker_Compose/01._Slides/04._More_Docker_Compose.md[More Docker Compose]
 
 a|
 link:00._Course_Material/02._Docker_Compose/02._Before_Class/01._Refresh_YAML_Syntax.md[Refresh YAML Syntax]
 
 a|
-// link:00._Course_Material/02._Docker_Compose/03._Exercises/00._Setup.md[Setup]
+link:00._Course_Material/02._Docker_Compose/03._Exercises/00._Setup.md[Setup]
 
-// link:00._Course_Material/02._Docker_Compose/03._Exercises/01._Dockerfile.md[Dockerfile]
+link:00._Course_Material/02._Docker_Compose/03._Exercises/01._Dockerfile.md[Dockerfile]
 
-// link:00._Course_Material/02._Docker_Compose/03._Exercises/02._Dockerfile_Multi.md[Dockerfile Multi]
+link:00._Course_Material/02._Docker_Compose/03._Exercises/02._Dockerfile_Multi.md[Dockerfile Multi]
 
-// link:00._Course_Material/02._Docker_Compose/03._Exercises/03._Docker_Network.md[Docker Network]
+link:00._Course_Material/02._Docker_Compose/03._Exercises/03._Docker_Network.md[Docker Network]
 
-// link:00._Course_Material/02._Docker_Compose/03._Exercises/04._Docker_Compose.md[Docker Compose]
+link:00._Course_Material/02._Docker_Compose/03._Exercises/04._Docker_Compose.md[Docker Compose]
 
-// link:00._Course_Material/02._Docker_Compose/03._Exercises/05._Docker_Compose_Multi.md[Docker Compose Multi]
+link:00._Course_Material/02._Docker_Compose/03._Exercises/05._Docker_Compose_Multi.md[Docker Compose Multi]
 
-// link:00._Course_Material/02._Docker_Compose/03._Exercises/06._Docker_Compose_.env.md[Docker Compose .env]
+link:00._Course_Material/02._Docker_Compose/03._Exercises/06._Docker_Compose_.env.md[Docker Compose .env]
 
-// link:00._Course_Material/02._Docker_Compose/03._Exercises/07._Docker_Compose_Enhanced.md[Docker Compose Enhanced]
+link:00._Course_Material/02._Docker_Compose/03._Exercises/07._Docker_Compose_Enhanced.md[Docker Compose Enhanced]
 
-// link:00._Course_Material/02._Docker_Compose/03._Exercises/08._Docker_Compose_Network.md[Docker Compose Network]
+link:00._Course_Material/02._Docker_Compose/03._Exercises/08._Docker_Compose_Network.md[Docker Compose Network]
 
-// link:00._Course_Material/02._Docker_Compose/03._Exercises/09._Docker_Compose_Reverse_Proxy.md[Docker Compose Reverse Proxy]
-
-a|
-// link:00._Course_Material/02._Docker_Compose/04._Homework/01._Docker_Cheat_Sheet.md[Docker Cheat Sheet]
-
-// link:00._Course_Material/02._Docker_Compose/04._Homework/02._Learn_Advanced_About_Docker.md[Learn Advanced About Docker]
+link:00._Course_Material/02._Docker_Compose/03._Exercises/09._Docker_Compose_Reverse_Proxy.md[Docker Compose Reverse Proxy]
 
 a|
+link:00._Course_Material/02._Docker_Compose/04._Homework/01._Docker_Cheat_Sheet.md[Docker Cheat Sheet]
+
+link:00._Course_Material/02._Docker_Compose/04._Homework/02._Learn_Advanced_About_Docker.md[Learn Advanced About Docker]
+
+a|
+1. What is the purpose of using Docker Compose instead of just Docker?
+
+2. Show a Docker Compose file and explain the purpose of each section.
+
+3. Explain port mapping with these examples:
+    a. 8080:8080
+    b. 127.0.0.1:3307:3306 
+
+4. Explain volumes and networks in Docker Compose.
+
+5. What is the difference between `image` and `dockerfile` in compose.yaml?
+
+6. Demonstrate how you can access the MySQL instance, running inside a container, for 
+example to create a new database, create tables, add rows etc.
 
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
@@ -167,7 +179,7 @@ GitHub Secrets
 // link:00._Course_Material/03._GitHub_Actions/01._Slides/04._GitHub_Secrets.md[GitHub Secrets]
 
 a|
-// link:00._Course_Material/03._GitHub_Actions/02._Before_Class/01._Refresh_GitHub_Actions_Knowledge.md[Refresh GitHub Actions Knowledge]
+link:00._Course_Material/03._GitHub_Actions/02._Before_Class/01._Refresh_GitHub_Actions_Knowledge.md[Refresh GitHub Actions Knowledge]
 
 a|
 // link:00._Course_Material/03._GitHub_Actions/03._Exercises/01._Hello_GitHub_Action.md[Hello GitHub Action]
@@ -270,9 +282,8 @@ a|
 
 // link:00._Course_Material/05._Cloud/03._Exercises/03._Docker_Installation.md[Docker Installation]
 
-// link:00._Course_Material/05._Cloud/03._Exercises/04-deploy.md[Deploy]
+// link:00._Course_Material/05._Cloud/03._Exercises/04._Deploy.md[Deploy]
 
-// link:00._Course_Material/05._Cloud/03._Exercises/05-firewall.md[Firewall]
 
 a|
 
