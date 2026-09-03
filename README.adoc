@@ -143,7 +143,7 @@ a|
 
 4. Explain volumes and networks in Docker Compose.
 
-5. What is the difference between `image` and `dockerfile` in compose.yaml?
+5. What is the difference between `image` and `build` in compose.yaml?
 
 6. Demonstrate how you can access the MySQL instance, running inside a container, for 
 example to create a new database, create tables, add rows etc.
