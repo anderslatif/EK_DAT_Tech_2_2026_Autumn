@@ -44,15 +44,15 @@ link:00._Course_Material/01._Docker/02._Before_Class/Learn_about_Docker.md[Learn
 link:00._Course_Material/01._Docker/02._Before_Class/SSH_Key_GitHub.md[SSH Key GitHub]
 
 a|
-link:00._Course_Material/01._Docker/03._Exercises/01._Docker_Exposing_Ports.md[01. Docker Exposing Ports]
+link:00._Course_Material/01._Docker/03._Exercises/01._Docker_Exposing_Ports.md[Docker Exposing Ports]
 
-link:00._Course_Material/01._Docker/03._Exercises/02._Docker_Execute_Commands.md[02. Docker Execute Commands]
+link:00._Course_Material/01._Docker/03._Exercises/02._Docker_Execute_Commands.md[Docker Execute Commands]
 
-link:00._Course_Material/01._Docker/03._Exercises/03._Docker_Bind_mounts_and_Volumes.md[03. Docker Bind mounts and Volumes]
+link:00._Course_Material/01._Docker/03._Exercises/03._Docker_Bind_mounts_and_Volumes.md[Docker Bind mounts and Volumes]
 
-link:00._Course_Material/01._Docker/03._Exercises/04._Cleaning_up_Containers_and_Images.md[04. Cleaning up Containers and Images]
+link:00._Course_Material/01._Docker/03._Exercises/04._Cleaning_up_Containers_and_Images.md[Cleaning up Containers and Images]
 
-link:00._Course_Material/01._Docker/03._Exercises/05._Dockerizing_a_Maven_project.md[05. Dockerizing a Maven project]
+link:00._Course_Material/01._Docker/03._Exercises/05._Dockerizing_a_Maven_project.md[Dockerizing a Maven project]
 
 a|
 link:00._Course_Material/01._Docker/04._Homework/Learn_more_about_Docker.md[Learn more about Docker]
