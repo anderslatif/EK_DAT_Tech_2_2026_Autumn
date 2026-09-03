@@ -44,15 +44,15 @@ link:00._Course_Material/01._Docker/02._Before_Class/Learn_about_Docker.md[Learn
 link:00._Course_Material/01._Docker/02._Before_Class/SSH_Key_GitHub.md[SSH Key GitHub]
 
 a|
-link:00._Course_Material/01._Docker/03._Exercises/01._Docker_Exposing_Ports.md[Docker Exposing Ports]
+link:00._Course_Material/01._Docker/03._Exercises/01._Docker_Exposing_Ports.md[01. Docker Exposing Ports]
 
-link:00._Course_Material/01._Docker/03._Exercises/02._Docker_Execute_Commands.md[Docker Execute Commands]
+link:00._Course_Material/01._Docker/03._Exercises/02._Docker_Execute_Commands.md[02. Docker Execute Commands]
 
-link:00._Course_Material/01._Docker/03._Exercises/03._Docker_Bind_mounts_and_Volumes.md[Docker Bind mounts and Volumes]
+link:00._Course_Material/01._Docker/03._Exercises/03._Docker_Bind_mounts_and_Volumes.md[03. Docker Bind mounts and Volumes]
 
-link:00._Course_Material/01._Docker/03._Exercises/04._Cleaning_up_Containers_and_Images.md[Cleaning up Containers and Images]
+link:00._Course_Material/01._Docker/03._Exercises/04._Cleaning_up_Containers_and_Images.md[04. Cleaning up Containers and Images]
 
-link:00._Course_Material/01._Docker/03._Exercises/05._Dockerizing_a_Maven_project.md[Dockerizing a Maven project]
+link:00._Course_Material/01._Docker/03._Exercises/05._Dockerizing_a_Maven_project.md[05. Dockerizing a Maven project]
 
 a|
 link:00._Course_Material/01._Docker/04._Homework/Learn_more_about_Docker.md[Learn more about Docker]
@@ -105,25 +105,25 @@ a|
 link:00._Course_Material/02._Docker_Compose/02._Before_Class/01._Refresh_YAML_Syntax.md[Refresh YAML Syntax]
 
 a|
-link:00._Course_Material/02._Docker_Compose/03._Exercises/00._Setup.md[Setup]
+link:00._Course_Material/02._Docker_Compose/03._Exercises/00._Setup.md[00. Setup]
 
-link:00._Course_Material/02._Docker_Compose/03._Exercises/01._Dockerfile.md[Dockerfile]
+link:00._Course_Material/02._Docker_Compose/03._Exercises/01._Dockerfile.md[01. Dockerfile]
 
-link:00._Course_Material/02._Docker_Compose/03._Exercises/02._Dockerfile_Multi.md[Dockerfile Multi]
+link:00._Course_Material/02._Docker_Compose/03._Exercises/02._Dockerfile_Multi.md[02. Dockerfile Multi]
 
-link:00._Course_Material/02._Docker_Compose/03._Exercises/03._Docker_Network.md[Docker Network]
+link:00._Course_Material/02._Docker_Compose/03._Exercises/03._Docker_Network.md[03. Docker Network]
 
-link:00._Course_Material/02._Docker_Compose/03._Exercises/04._Docker_Compose.md[Docker Compose]
+link:00._Course_Material/02._Docker_Compose/03._Exercises/04._Docker_Compose.md[04. Docker Compose]
 
-link:00._Course_Material/02._Docker_Compose/03._Exercises/05._Docker_Compose_Multi.md[Docker Compose Multi]
+link:00._Course_Material/02._Docker_Compose/03._Exercises/05._Docker_Compose_Multi.md[05. Docker Compose Multi]
 
-link:00._Course_Material/02._Docker_Compose/03._Exercises/06._Docker_Compose_.env.md[Docker Compose .env]
+link:00._Course_Material/02._Docker_Compose/03._Exercises/06._Docker_Compose_.env.md[06. Docker Compose .env]
 
-link:00._Course_Material/02._Docker_Compose/03._Exercises/07._Docker_Compose_Enhanced.md[Docker Compose Enhanced]
+link:00._Course_Material/02._Docker_Compose/03._Exercises/07._Docker_Compose_Enhanced.md[07. Docker Compose Enhanced]
 
-link:00._Course_Material/02._Docker_Compose/03._Exercises/08._Docker_Compose_Network.md[Docker Compose Network]
+link:00._Course_Material/02._Docker_Compose/03._Exercises/08._Docker_Compose_Network.md[08. Docker Compose Network]
 
-link:00._Course_Material/02._Docker_Compose/03._Exercises/09._Docker_Compose_Reverse_Proxy.md[Docker Compose Reverse Proxy]
+link:00._Course_Material/02._Docker_Compose/03._Exercises/09._Docker_Compose_Reverse_Proxy.md[09. Docker Compose Reverse Proxy]
 
 a|
 link:00._Course_Material/02._Docker_Compose/04._Homework/01._Docker_Cheat_Sheet.md[Docker Cheat Sheet]
