@@ -126,7 +126,7 @@ link:00._Course_Material/02._Docker_Compose/03._Exercises/08._Docker_Compose_Net
 link:00._Course_Material/02._Docker_Compose/03._Exercises/09._Docker_Compose_Reverse_Proxy.md[09. Docker Compose Reverse Proxy]
 
 a|
-link:00._Course_Material/04._Linux/04._Homework/01._Deploy_bashcrawl_to_GHCR.md[Deploy Bashcrawl to GHCR]
+link:00._Course_Material/02._Docker_Compose/04._Homework/03._Bashcrawl.md[Bashcrawl]
 
 link:00._Course_Material/02._Docker_Compose/04._Homework/01._Docker_Cheat_Sheet.md[Docker Cheat Sheet]
 
