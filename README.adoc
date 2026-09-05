@@ -58,13 +58,10 @@ a|
 link:00._Course_Material/01._Docker/04._Homework/Learn_more_about_Docker.md[Learn more about Docker]
 
 a|
-**Docker**
-
-1. What is Docker?
-2. What is a Docker Image?
-3. What is a Docker Container?
-4. Run a Docker Container on your local OS.
-5. Show the Docker command to:
+1. What is Docker? A Docker Image? A Docker Container?
+2. Show a Dockerfile and explain each line.
+3. Run a Docker Container on your local OS. Access it with `-it`
+4. Show the Docker command to:
     a. List all images
     b. List all containers
     c. Create a container
@@ -72,9 +69,9 @@ a|
     e. Build an image
     f. Delete an image
     g. Delete a container
-6. Show how to manage ports on a Docker container.
-
-Bonus: Explain the purpose of multi-stage builds, volume management.
+5. Show how to manage ports on a Docker container (network).
+6. Explain the two types of volume management in Docker.
+7. Explain the purpose of multi-stage builds.
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
