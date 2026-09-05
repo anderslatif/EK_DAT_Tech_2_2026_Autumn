@@ -142,8 +142,11 @@ a|
 
 5. What is the difference between `image` and `build` in compose.yaml?
 
-6. Demonstrate how you can access the MySQL instance, running inside a container, for 
+6. Demonstrate how you start service and clean up (including volumes).
+
+7. Demonstrate how you can access the MySQL instance, running inside a container, for 
 example to create a new database, create tables, add rows etc.
+
 
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
