@@ -164,47 +164,54 @@ Sept. +
 **MORNING**
 
 a|
-GitHub Actions
+// GitHub Actions
 
-Hashing and Caching
+// Hashing and Caching
 
-CI/CD
+// CI/CD
 
-GitHub Secrets
+// GitHub Secrets
 
-// link:00._Course_Material/03._GitHub_Actions/01._Slides/01._GitHub_Actions.md[GitHub Actions]
+link:00._Course_Material/03._GitHub_Actions/01._Slides/01._GitHub_Actions.md[GitHub Actions]
 
-// link:00._Course_Material/03._GitHub_Actions/01._Slides/02._Hashing_and_Caching.md[Hashing and Caching]
+link:00._Course_Material/03._GitHub_Actions/01._Slides/02._Hashing_and_Caching.md[Hashing and Caching]
 
-// link:00._Course_Material/03._GitHub_Actions/01._Slides/03._CI_CD.md[CI/CD]
+link:00._Course_Material/03._GitHub_Actions/01._Slides/03._GitHub_Secrets.md[GitHub Secrets]
 
-// link:00._Course_Material/03._GitHub_Actions/01._Slides/04._GitHub_Secrets.md[GitHub Secrets]
+link:00._Course_Material/03._GitHub_Actions/01._Slides/04._CI_CD.md[CI/CD]
+
 
 a|
 link:00._Course_Material/03._GitHub_Actions/02._Before_Class/01._Refresh_GitHub_Actions_Knowledge.md[Refresh GitHub Actions Knowledge]
 
 a|
-// link:00._Course_Material/03._GitHub_Actions/03._Exercises/01._Hello_GitHub_Action.md[Hello GitHub Action]
+link:00._Course_Material/03._GitHub_Actions/03._Exercises/01._Hello_GitHub_Action.md[01. Hello GitHub Action]
 
-// link:00._Course_Material/03._GitHub_Actions/03._Exercises/02._Maven-build.md[Maven Build]
+link:00._Course_Material/03._GitHub_Actions/03._Exercises/02._Maven-build.md[02. Maven Build]
 
-// link:00._Course_Material/03._GitHub_Actions/03._Exercises/03._Caching_Dependencies.md[Caching Dependencies]
+link:00._Course_Material/03._GitHub_Actions/03._Exercises/03._Caching_Dependencies.md[03. Caching Dependencies]
 
-// link:00._Course_Material/03._GitHub_Actions/03._Exercises/04._Hash_Pinning.md[Hash Pinning]
+link:00._Course_Material/03._GitHub_Actions/03._Exercises/04._Hash_Pinning.md[04. Hash Pinning]
 
-// link:00._Course_Material/03._GitHub_Actions/03._Exercises/05._Docker_GitHub_Action.md[Docker GitHub Action]
+link:00._Course_Material/03._GitHub_Actions/03._Exercises/05._Docker_GitHub_Action.md[05. Docker GitHub Action]
 
-// link:00._Course_Material/03._GitHub_Actions/03._Exercises/06._Reusable_Workflows.md[Reusable Workflows]
+link:00._Course_Material/03._GitHub_Actions/03._Exercises/06._Reusable_Workflows.md[06. Reusable Workflows]
 
-// link:00._Course_Material/03._GitHub_Actions/03._Exercises/07._Push_GHCR.md[Push GHCR]
+link:00._Course_Material/03._GitHub_Actions/03._Exercises/07._Push_GHCR.md[07. Push GHCR]
 
-// link:00._Course_Material/03._GitHub_Actions/03._Exercises/08_GHCR_images.md[GHCR Images]
-
-a|
-// link:00._Course_Material/03._GitHub_Actions/04._Homework/CI_CD_pairing_game.md[CI/CD Pairing Game]
+link:00._Course_Material/03._GitHub_Actions/03._Exercises/08_GHCR_images.md[08. GHCR Images]
 
 a|
+link:00._Course_Material/03._GitHub_Actions/04._Homework/CI_CD_pairing_game.md[CI/CD Pairing Game]
 
+a|
+
+1. Explain the concept of CI/CD and what type of steps to run in each in an ideal world.
+2. Show how you have used Git to collaborate.
+3. What is the role of Github Actions?
+4. Show an elaborate workflow that you have setup and explain it.
+5. In the terminal, create a push that triggers a GitHub action. Demonstrate the run in the GitHub UI.
+6. Demonstrate how you can hash-pin a 3rd-party action.
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -236,7 +243,7 @@ Encryption SSH
 // link:00._Course_Material/04._Linux/01._Slides/05._Encryption_SSH.md[Encryption SSH]
 
 a|
-// link:00._Course_Material/04._Linux/02._Before_Class/01._Refresh_Terminal_Commands.md[Refresh Terminal Commands]
+link:00._Course_Material/04._Linux/02._Before_Class/01._Refresh_Terminal_Commands.md[Refresh Terminal Commands]
 
 a|
 // link:00._Course_Material/04._Linux/03._Exercises/00._Linux_Docker.md[Linux Docker]
