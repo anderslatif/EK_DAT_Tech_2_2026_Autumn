@@ -20,6 +20,13 @@ Going to Code Lab for help is also a great idea.
 
 ---
 
+### Repository Structure
+
+<img src="./tech_2_project_repositories.png" alt="respository structure tech 2">
+
+
+---
+
 ### Mandatories
 
 Prerequisite to go to the exam.
