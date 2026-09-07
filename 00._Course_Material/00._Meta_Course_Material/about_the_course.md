@@ -22,8 +22,13 @@ Going to Code Lab for help is also a great idea.
 
 ### Repository Structure
 
-<img src="./tech_2_project_repositories.png" alt="respository structure tech 2">
+There will be 4 repositories. 
 
+One we will create from scratch on the first day (the semester repositories) and 3 starter projects that you will fork.
+
+Do not nest the repositories.
+
+<img src="./tech_2_project_repositories.png" alt="respository structure tech 2">
 
 ---
 
