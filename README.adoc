@@ -363,6 +363,7 @@ No Lecture
 a| 
 No Lecture
 a|
+link:00._Course_Material/00._Meta_Course_Material/mandatory_I.md[Mandatory I]
 
 a|
 
