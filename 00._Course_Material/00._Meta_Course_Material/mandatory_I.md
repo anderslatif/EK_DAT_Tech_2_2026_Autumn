@@ -1,5 +1,9 @@
 # Mandatory I
 
+**Type**: Individual.
+
+It would make sense to send in the same URL as the group but the hand-in is individual.
+
 **Hand-in**: Teams Assignment. Hand in a URL. Either raw or in a document.
 
 **Late-Hand-ins**: I will create a thread in the Teams room called Assignments. I will respond if the link works when I check it.
