@@ -286,26 +286,26 @@ Sept. +
 24th
 
 a|
-Cloud
+// Cloud
 
-VMs in Azure
+// VMs in Azure
 
-// link:00._Course_Material/05._Cloud/01._Slides/01._Cloud.md[Cloud]
+link:00._Course_Material/05._Cloud/01._Slides/01._Cloud.md[Cloud]
 
-// link:00._Course_Material/05._Cloud/01._Slides/02._VMs_in_Azure.md[VMs in Azure]
-
-a|
+link:00._Course_Material/05._Cloud/01._Slides/02._VMs_in_Azure.md[VMs in Azure]
 
 a|
-// link:00._Course_Material/05._Cloud/03._Exercises/00._Create_a_VM.md[Create a VM]
 
-// link:00._Course_Material/05._Cloud/03._Exercises/01._VM_Users.md[VM Users]
+a|
+link:00._Course_Material/05._Cloud/03._Exercises/00._Create_a_VM.md[Create a VM]
 
-// link:00._Course_Material/05._Cloud/03._Exercises/02._VM_Basic_Management.md[VM Basic Management]
+link:00._Course_Material/05._Cloud/03._Exercises/01._VM_Users.md[VM Users]
 
-// link:00._Course_Material/05._Cloud/03._Exercises/03._Docker_Installation.md[Docker Installation]
+link:00._Course_Material/05._Cloud/03._Exercises/02._VM_Basic_Management.md[VM Basic Management]
 
-// link:00._Course_Material/05._Cloud/03._Exercises/04._Deploy.md[Deploy]
+link:00._Course_Material/05._Cloud/03._Exercises/03._Docker_Installation.md[Docker Installation]
+
+link:00._Course_Material/05._Cloud/03._Exercises/04._Deploy.md[Deploy]
 
 
 a|
@@ -393,7 +393,7 @@ DNS Resolution
 // link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/01._Slides/04._DNS_Resolution.md[DNS Resolution]
 
 a|
-// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/02._Before_Class/dns_intro_video.md[DNS Intro Video]
+link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/02._Before_Class/01._dns_intro_video.md[DNS Intro Video]
 
 a|
 // link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/03._Exercises/01._dns_lookup.md[DNS Lookup]
