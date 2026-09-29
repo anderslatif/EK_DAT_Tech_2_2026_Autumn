@@ -314,11 +314,12 @@ a|
 1. What is SaaS, IaaS and PaaS?
   .. What are the pros and cons of each solution?
   .. Why would one have on-prem, hybrid or cloud?
-2. Go over different cloud architectures (besides the `Deploy` exercise) and different cloud services.
-3. Show your setup of the `Deploy` exercise. Have it running for the exam and explain how it works.
+2. Go over different cloud architectures (besides the `Deploy` exercise) that utilize various cloud services.
+3. Show your personal setup of the `Deploy` exercise. Have it running for the exam and explain how it works.
 4. Talk about port rules and firewall rules. Show how to change firewall rules for a cloud VM either in the UI or on the server.
 5. Show how you SSH into a one of the VMs from the `Deploy` exercise.
 6. Demonstrate the CI/CD pipeline by triggering a change for the `Deploy` exercise.
+7. Show how to shut down one of the VMs.
 
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
@@ -514,7 +515,7 @@ Nov. +
 19th
 
 a|
-Conference
+Self-study Exam Preperation
 a|
 No Lecture
 a|
