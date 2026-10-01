@@ -2,9 +2,9 @@
 
 **Type**: Individual.
 
-It would make sense to send in the same URL as the group but the hand-in is individual.
+It would make sense to send in the same URL as the group but the hand-in is individual as a requirement for the individual exam.
 
-**Hand-in**: Teams Assignment. Hand in a URL. Either raw or in a document.
+**Hand-in**: Teams Assignment. Hand in the URL from the deployment of the cross-disciplinary project. Either raw or in a document. You can find the Tech 2 requirements in the singular requirement document shared between subjects.
 
 **Late-Hand-ins**: I will create a thread in the Teams room called Assignments. I will respond if the link works when I check it.
 
