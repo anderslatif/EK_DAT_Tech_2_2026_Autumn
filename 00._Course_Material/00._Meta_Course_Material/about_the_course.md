@@ -60,5 +60,5 @@ Emphasis on doing things live rather than rattling off the theory.
 
 Some of the materials are based on the work by [Osman Butt](https://github.com/osman-butt).
 
-Specifically, the guides in [this repository](https://github.com/ek-osnb/f26-tek2).
+Specifically, the exercises are taken from [this repository](https://github.com/ek-osnb/f26-tek2).
 
