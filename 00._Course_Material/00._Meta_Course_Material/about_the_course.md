@@ -56,6 +56,12 @@ Emphasis on doing things live rather than rattling off the theory.
 
 ---
 
+# Cloud Requirement
+
+While the provided guides and lecture uses Azure as an example, there are no requirements of using any specific cloud provider to deploy to a Virtual Machine. This is evident in the wording in the course material.
+
+---
+
 ### Credit
 
 Some of the materials are based on the work by [Osman Butt](https://github.com/osman-butt).
