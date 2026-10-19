@@ -418,7 +418,7 @@ link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/04._Homework/02._Subnet_
 link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/04._Homework/03._IP_Addresses.md[03. IP Addresses]
 
 
-link:00._Course_Material/00._Meta_Course_Material/mandatory_I.md[Mandatory II]
+link:00._Course_Material/00._Meta_Course_Material/mandatory_II.md[Mandatory II - Given]
 
 a|
 1. Explain DNS and the resolution process.
