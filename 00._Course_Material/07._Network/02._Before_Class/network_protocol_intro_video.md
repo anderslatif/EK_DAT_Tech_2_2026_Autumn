@@ -10,4 +10,8 @@ Feel free to skip the BGP section (last part of the video).
 
 # Notes
 
-During the 3-way handshake portion of TCP it is left out that **SYN** = Synchronize, **ACK** = Acknowledge.
+During the 3-way handshake portion of TCP the following abbreviations are not explained:
+
+- **SYN** = Synchronize
+
+- **ACK** = Acknowledge.
