@@ -384,43 +384,48 @@ Oct. +
 22nd
 
 a|
-IP Addresses
+// IP Addresses
 
-Hostnames
+// Hostnames
 
-DNS
+// DNS
 
-DNS Resolution
+// DNS Resolution
 
-// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/01._Slides/01._IP_Addreses.md[IP Addresses]
+link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/01._Slides/01._IP_Addreses.md[IP Addreses]
 
-// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/01._Slides/02._Hostnames.md[Hostnames]
+link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/01._Slides/02._Hostnames.md[Hostnames]
 
-// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/01._Slides/03._DNS.md[DNS]
+link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/01._Slides/03._DNS.md[DNS]
 
-// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/01._Slides/04._DNS_Resolution.md[DNS Resolution]
-
-a|
-link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/02._Before_Class/01._dns_intro_video.md[DNS Intro Video]
+link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/01._Slides/04._DNS_Resolution.md[DNS Resolution]
 
 a|
-// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/03._Exercises/01._dns_lookup.md[DNS Lookup]
-
-// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/03._Exercises/02._buying_domains.md[Buying Domains]
-
-// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/03._Exercises/03._https_caddy.md[HTTPS Caddy]
+link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/02._Before_Class/01._dns_intro_video.md[01. DNS Intro Video]
 
 a|
-// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/04._Homework/01-subnet-mask.md[Subnet Mask]
+link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/03._Exercises/01._DNS_Lookup.md[01. DNS Lookup]
 
-// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/04._Homework/02-subnet-cheatsheet.md[Subnet Cheatsheet]
-
-// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/04._Homework/03-ip-addresses.md[IP Addresses]
-
-// link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/04._Homework/URL_anatomy_quiz.md[URL Anatomy Quiz]
+link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/03._Exercises/02._Setting_up_a_Domain.md[02. Setting up a Domain]
 
 a|
+link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/04._Homework/00._URL_anatomy_quiz.md[00. URL anatomy quiz]
 
+link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/04._Homework/01._Subnet_Mask.md[01. Subnet Mask]
+
+link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/04._Homework/02._Subnet_Cheatsheet.md[02. Subnet Cheatsheet]
+
+link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/04._Homework/03._IP_Addresses.md[03. IP Addresses]
+
+
+link:00._Course_Material/00._Meta_Course_Material/mandatory_I.md[Mandatory II]
+
+a|
+1. Explain DNS and the resolution process.
+2. Create a DNS lookup in the terminal for ek.dk and explain.
+3. Find the slide: **Try these `dig` commands**. Run some of them and explain the output.
+4. Explain subnets, CIDR notation by going over a concrete example.
+4. Show how you solved Mandatory II.
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -453,9 +458,9 @@ Wireshark
 // link:00._Course_Material/07._Network/01._Slides/06._Wireshark.md[Wireshark]
 
 a|
-// link:00._Course_Material/07._Network/02._Before_Class/install_wireshark.md[Install Wireshark]
+link:00._Course_Material/07._Network/02._Before_Class/install_wireshark.md[Install Wireshark]
 
-// link:00._Course_Material/07._Network/02._Before_Class/network_protocol_intro_video.md[Network Protocol Intro Video]
+link:00._Course_Material/07._Network/02._Before_Class/network_protocol_intro_video.md[Network Protocol Intro Video]
 
 a|
 // link:00._Course_Material/07._Network/03._Exercises/01-ip-addresses.md[IP Addresses]
@@ -465,6 +470,7 @@ a|
 a|
 
 a|
+
 
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
