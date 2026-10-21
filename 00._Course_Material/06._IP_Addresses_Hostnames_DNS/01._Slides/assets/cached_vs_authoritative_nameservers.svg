@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#222"/>
+    </marker>
+  </defs>
+
+  <rect width="1000" height="600" fill="#ffffff"/>
+
+  <!-- Headings -->
+  <text x="235" y="45" font-size="28" font-weight="600" text-anchor="middle" fill="#222">Caching nameservers</text>
+  <text x="760" y="45" font-size="28" font-weight="600" text-anchor="middle" fill="#222">Authoritative nameservers</text>
+
+  <!-- Caching column, checked from the bottom up -->
+  <g stroke="#222" stroke-width="2" fill="#eef4ff">
+    <rect x="200" y="90" width="70" height="56" rx="10"/>
+    <rect x="200" y="190" width="70" height="56" rx="10"/>
+    <rect x="200" y="290" width="70" height="56" rx="10"/>
+    <rect x="200" y="390" width="70" height="56" rx="10"/>
+  </g>
+  <g font-size="26" font-weight="600" text-anchor="middle" fill="#222">
+    <text x="235" y="127">?</text>
+    <text x="235" y="227">?</text>
+    <text x="235" y="327">?</text>
+    <text x="235" y="427">?</text>
+  </g>
+  <g font-size="16" text-anchor="end" fill="#222">
+    <text x="185" y="113">DNS resolver</text>
+    <text x="185" y="133" fill="#555">(ISP or 1.1.1.1)</text>
+    <text x="185" y="223">Local router</text>
+    <text x="185" y="313">Operating system</text>
+    <text x="185" y="333" fill="#555">(cache, hosts file)</text>
+    <text x="185" y="423">Browser cache</text>
+  </g>
+  <g stroke="#222" stroke-width="2" marker-end="url(#arrow)">
+    <line x1="235" y1="500" x2="235" y2="449"/>
+    <line x1="235" y1="390" x2="235" y2="349"/>
+    <line x1="235" y1="290" x2="235" y2="249"/>
+    <line x1="235" y1="190" x2="235" y2="149"/>
+  </g>
+
+  <!-- Question -->
+  <text x="110" y="533" font-size="22" font-weight="600" fill="#222">Q:</text>
+  <rect x="145" y="500" width="180" height="50" rx="10" fill="#ffffff" stroke="#222" stroke-width="2"/>
+  <text x="235" y="532" font-size="20" text-anchor="middle" font-family="Menlo, Consolas, monospace" fill="#222">&gt; ek.dk</text>
+  <text x="235" y="572" font-size="14" text-anchor="middle" fill="#555">browser</text>
+
+  <!-- Authoritative column -->
+  <g stroke="#222" stroke-width="2">
+    <rect x="700" y="90" width="70" height="56" rx="10" fill="#fff4e5"/>
+    <rect x="700" y="230" width="70" height="56" rx="10" fill="#fff4e5"/>
+    <rect x="700" y="370" width="70" height="56" rx="10" fill="#e6f4ea"/>
+  </g>
+  <g font-size="26" font-weight="600" text-anchor="middle" fill="#222">
+    <text x="735" y="127">?</text>
+    <text x="735" y="267">?</text>
+    <text x="735" y="407">!</text>
+  </g>
+  <g font-size="16" fill="#222">
+    <text x="785" y="123">Root nameserver</text>
+    <text x="785" y="253">TLD nameserver</text>
+    <text x="785" y="273" fill="#555">(.dk)</text>
+    <text x="785" y="393">ek.dk nameserver</text>
+    <text x="785" y="413" fill="#555">(ns.efif.dk)</text>
+  </g>
+
+  <!-- The resolver asks each authoritative server in turn -->
+  <g stroke="#222" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)">
+    <line x1="273" y1="118" x2="697" y2="118"/>
+    <line x1="273" y1="122" x2="697" y2="256"/>
+    <line x1="273" y1="126" x2="697" y2="394"/>
+  </g>
+  <g font-size="15" text-anchor="middle" fill="#222" stroke="#ffffff" stroke-width="5" paint-order="stroke">
+    <text x="485" y="118" dy="-10">1. Where is .dk?</text>
+    <text x="485" y="189" dy="-10" transform="rotate(17.5 485 189)">2. Where is ek.dk?</text>
+    <text x="485" y="260" dy="-10" transform="rotate(32.3 485 260)">3. What is the IP of ek.dk?</text>
+  </g>
+
+  <!-- Answer -->
+  <line x1="735" y1="426" x2="735" y2="497" stroke="#222" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+  <text x="595" y="533" font-size="22" font-weight="600" fill="#222">A:</text>
+  <rect x="630" y="500" width="210" height="50" rx="10" fill="#ffffff" stroke="#222" stroke-width="2"/>
+  <text x="735" y="532" font-size="20" text-anchor="middle" font-family="Menlo, Consolas, monospace" fill="#222">A 195.254.168.52</text>
+</svg>
