@@ -423,9 +423,11 @@ link:00._Course_Material/00._Meta_Course_Material/mandatory_II.md[Mandatory II -
 a|
 1. Explain DNS and the resolution process.
 2. Create a DNS lookup in the terminal for ek.dk and explain.
-3. Find the slide: **Try these `dig` commands**. Run some of them and explain the output.
-4. Explain subnets, CIDR notation by going over a concrete example.
-4. Show how you solved Mandatory II.
+3. Capture DNS packets in Wireshark live and explain the data and layers.
+4. Find the slide: **More `dig` commands**. Run some of them and explain the output.
+5. Explain subnets, CIDR notation by going over a concrete example.
+6. Run some nmap commands.
+7. Show how you solved Mandatory II.
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
