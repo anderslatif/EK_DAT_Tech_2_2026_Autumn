@@ -427,7 +427,7 @@ a|
 4. Find the slide: **More `dig` commands**. Run some of them and explain the output.
 5. Explain subnets, CIDR notation by going over a concrete example.
 6. Run some nmap commands.
-7. Show how you solved Mandatory II.
+7. Show how you solved Mandatory II. You are allowed to show screenshots.
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
