@@ -525,7 +525,7 @@ Nov. +
 a|
 Self-study Exam Preperation
 a|
-No Lecture
+link:00._Course_Material/08._Exam_Preparation/03._Exercises/01._Exam_Preparation.md[Exam Preparation]
 a|
 No Lecture
 a|
