@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1760 1090" font-family="Virgil, 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', cursive">
+  <defs>
+    <g id="computer">
+      <rect x="-82" y="-80" width="164" height="110" rx="20" fill="#c9ccd3" stroke="#4a4f59" stroke-width="3"/>
+      <rect x="-66" y="-66" width="132" height="82" rx="12" fill="#343a46"/>
+      <rect x="-18" y="30" width="36" height="10" fill="#343a46"/>
+      <rect x="-98" y="40" width="196" height="30" rx="6" fill="#c9ccd3" stroke="#4a4f59" stroke-width="3"/>
+      <rect x="44" y="50" width="38" height="8" rx="3" fill="#343a46"/>
+    </g>
+    <marker id="icon_arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="3" markerHeight="3" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#4a4f59"/>
+    </marker>
+    <marker id="request_arrow" viewBox="0 0 20 20" refX="18" refY="10" markerWidth="20" markerHeight="20" markerUnits="userSpaceOnUse" orient="auto" overflow="visible">
+      <polyline points="-6,-4 18,10 -6,24" fill="none" stroke="#1e1e1e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="reply_arrow" viewBox="0 0 20 20" refX="18" refY="10" markerWidth="20" markerHeight="20" markerUnits="userSpaceOnUse" orient="auto" overflow="visible">
+      <polyline points="-6,-4 18,10 -6,24" fill="none" stroke="#e8590c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect width="1760" height="1090" fill="#ffffff"/>
+
+  <text x="880" y="70" font-size="50" text-anchor="middle" fill="#1e1e1e">ARP Request &amp; Reply</text>
+
+  <!-- Client -->
+  <text x="172" y="390" font-size="44" text-anchor="middle" fill="#1e1e1e">Client</text>
+  <use xlink:href="#computer" x="167" y="525"/>
+  <text x="160" y="658" font-size="38" text-anchor="middle" fill="#1e1e1e">192.168.0.12</text>
+  <text x="160" y="698" font-size="30" text-anchor="middle" fill="#6c727d">f2:f2:f2:f2:f2:f2</text>
+  <circle cx="42" cy="752" r="20" fill="#1e1e1e"/>
+  <text x="42" y="762" font-size="28" text-anchor="middle" fill="#ffffff">4</text>
+  <text x="72" y="762" font-size="29" fill="#1e1e1e">Saves it in</text>
+  <text x="72" y="797" font-size="29" fill="#1e1e1e">its ARP table</text>
+
+  <!-- Switch -->
+  <polygon points="1045,500 1045,517 965,567 885,520 885,505" fill="#c9ccd3" stroke="#4a4f59" stroke-width="3"/>
+  <polygon points="885,505 962,455 1045,500 965,550" fill="#c9ccd3" stroke="#4a4f59" stroke-width="3"/>
+  <line x1="950" y1="478" x2="985" y2="497" stroke="#4a4f59" stroke-width="6" marker-end="url(#icon_arrow)"/>
+  <line x1="975" y1="530" x2="940" y2="511" stroke="#4a4f59" stroke-width="6" marker-end="url(#icon_arrow)"/>
+  <line x1="932" y1="488" x2="905" y2="503" stroke="#4a4f59" stroke-width="6" marker-end="url(#icon_arrow)"/>
+  <line x1="995" y1="520" x2="1022" y2="505" stroke="#4a4f59" stroke-width="6" marker-end="url(#icon_arrow)"/>
+  <text x="965" y="610" font-size="30" text-anchor="middle" fill="#6c727d">Switch</text>
+
+  <!-- Other computers: receive the broadcast, but it is not for them -->
+  <use xlink:href="#computer" x="1593" y="140"/>
+  <text x="1597" y="280" font-size="38" text-anchor="middle" fill="#1e1e1e">192.168.0.75</text>
+  <text x="1597" y="320" font-size="30" text-anchor="middle" fill="#6c727d">Not me → ignore</text>
+
+  <use xlink:href="#computer" x="1608" y="895"/>
+  <text x="1600" y="1035" font-size="38" text-anchor="middle" fill="#1e1e1e">192.168.0.34</text>
+  <text x="1600" y="1075" font-size="30" text-anchor="middle" fill="#6c727d">Not me → ignore</text>
+
+  <!-- Router -->
+  <path d="M1527,495 L1527,545 A80,38 0 0 0 1687,545 L1687,495 Z" fill="#c9ccd3" stroke="#4a4f59" stroke-width="3"/>
+  <ellipse cx="1607" cy="495" rx="80" ry="38" fill="#d7dae0" stroke="#4a4f59" stroke-width="3"/>
+  <line x1="1580" y1="478" x2="1600" y2="491" stroke="#4a4f59" stroke-width="7" marker-end="url(#icon_arrow)"/>
+  <line x1="1634" y1="512" x2="1614" y2="499" stroke="#4a4f59" stroke-width="7" marker-end="url(#icon_arrow)"/>
+  <line x1="1614" y1="491" x2="1634" y2="478" stroke="#4a4f59" stroke-width="7" marker-end="url(#icon_arrow)"/>
+  <line x1="1600" y1="499" x2="1580" y2="512" stroke="#4a4f59" stroke-width="7" marker-end="url(#icon_arrow)"/>
+  <text x="1612" y="625" font-size="38" text-anchor="middle" fill="#1e1e1e">192.168.0.1</text>
+  <text x="1612" y="665" font-size="30" text-anchor="middle" fill="#6c727d">a1:a1:a1:a1:a1:a1</text>
+  <circle cx="1530" cy="695" r="20" fill="#e8590c"/>
+  <text x="1530" y="705" font-size="28" text-anchor="middle" fill="#ffffff">2</text>
+  <text x="1560" y="705" font-size="30" fill="#e8590c">That's me!</text>
+
+  <!-- 1. Request: broadcast from client to everyone -->
+  <g stroke="#1e1e1e" stroke-width="4" stroke-linecap="round" marker-end="url(#request_arrow)">
+    <line x1="320" y1="490" x2="868" y2="490"/>
+    <line x1="1050" y1="468" x2="1462" y2="196"/>
+    <line x1="1062" y1="498" x2="1505" y2="498"/>
+    <line x1="1050" y1="562" x2="1470" y2="878"/>
+  </g>
+
+  <!-- 2. Reply: unicast from router back to client only -->
+  <g stroke="#e8590c" stroke-width="4" stroke-linecap="round" marker-end="url(#reply_arrow)">
+    <line x1="1505" y1="545" x2="1065" y2="545"/>
+    <line x1="868" y1="548" x2="320" y2="548"/>
+  </g>
+
+  <!-- Request contents -->
+  <rect x="315" y="125" width="540" height="340" rx="40" fill="#e9ecef" stroke="#1e1e1e" stroke-width="4"/>
+  <g font-size="29" fill="#1e1e1e">
+    <circle cx="355" cy="162" r="20" fill="#1e1e1e"/>
+    <text x="355" y="172" font-size="28" text-anchor="middle" fill="#ffffff">1</text>
+    <text x="388" y="172" font-size="33">Request (broadcast to all)</text>
+    <text x="335" y="220" font-size="31" font-style="italic">"Who has 192.168.0.1?</text>
+    <text x="335" y="258" font-size="31" font-style="italic"> Tell 192.168.0.12"</text>
+    <text x="335" y="310">Source IP:</text>   <text x="530" y="310">192.168.0.12</text>
+    <text x="335" y="345">Source MAC:</text>  <text x="530" y="345">f2:f2:f2:f2:f2:f2</text>
+    <text x="335" y="380">Target IP:</text>   <text x="530" y="380">192.168.0.1</text>
+    <text x="335" y="415">Target MAC:</text>  <text x="530" y="415">00:00:00:00:00:00</text>
+    <text x="530" y="447" font-size="25" fill="#6c727d">(unknown)</text>
+  </g>
+
+  <!-- Reply contents -->
+  <rect x="315" y="580" width="540" height="320" rx="40" fill="#fff4e6" stroke="#e8590c" stroke-width="4"/>
+  <g font-size="29" fill="#1e1e1e">
+    <circle cx="355" cy="617" r="20" fill="#e8590c"/>
+    <text x="355" y="627" font-size="28" text-anchor="middle" fill="#ffffff">3</text>
+    <text x="388" y="627" font-size="33" fill="#e8590c">Reply (only to the client)</text>
+    <text x="335" y="675" font-size="31" font-style="italic">"192.168.0.1 is at</text>
+    <text x="335" y="713" font-size="31" font-style="italic"> a1:a1:a1:a1:a1:a1"</text>
+    <text x="335" y="765">Source IP:</text>   <text x="530" y="765">192.168.0.1</text>
+    <text x="335" y="800">Source MAC:</text>  <text x="530" y="800">a1:a1:a1:a1:a1:a1</text>
+    <text x="335" y="835">Target IP:</text>   <text x="530" y="835">192.168.0.12</text>
+    <text x="335" y="870">Target MAC:</text>  <text x="530" y="870">f2:f2:f2:f2:f2:f2</text>
+  </g>
+</svg>

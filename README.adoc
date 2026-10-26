@@ -421,13 +421,15 @@ link:00._Course_Material/06._IP_Addresses_Hostnames_DNS/04._Homework/03._IP_Addr
 link:00._Course_Material/00._Meta_Course_Material/mandatory_II.md[Mandatory II - Given]
 
 a|
-1. Explain DNS and the resolution process.
-2. Create a DNS lookup in the terminal for ek.dk and explain.
-3. Capture DNS packets in Wireshark live and explain the data and layers.
-4. Find the slide: **More `dig` commands**. Run some of them and explain the output.
-5. Explain subnets, CIDR notation by going over a concrete example.
-6. Run some nmap commands.
-7. Show how you solved Mandatory II. You are allowed to show screenshots.
+1. What is an IP address and what is a MAC address?
+2. Explain networks. What is the difference between a public and private address?
+3. Explain subnets, CIDR notation by going over a concrete example.
+4. Explain DNS and the resolution process.
+5. Create a DNS lookup in the terminal for ek.dk and explain.
+6. Capture DNS packets in Wireshark live and explain the data and layers.
+7. Find the slide: **More `dig` commands**. Run some of them and explain the output.
+8. Run some nmap commands.
+9. Show how you solved Mandatory II. You are allowed to show screenshots.
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -439,25 +441,34 @@ Oct. +
 29th
 
 a|
-Protocols
 
-TCP UDP
+// Protocols
 
-More Networking Topics
+// Network Layers
 
-HTTP(S)
+// The Network Access Layer
 
-Wireshark
+// The Network Layer
 
-// link:00._Course_Material/07._Network/01._Slides/01._Protocols.md[Protocols]
+// The Transport Layer
 
-// link:00._Course_Material/07._Network/01._Slides/02._TCP_UDP.md[TCP UDP]
+// The Application Layer
 
-// link:00._Course_Material/07._Network/01._Slides/03._More_Networking_Topics.md[More Networking Topics]
+// Wireshark
 
-// link:00._Course_Material/07._Network/01._Slides/05._HTTP(S).md[HTTP(S)]
+link:00._Course_Material/07._Network/01._Slides/01._Protocols.md[Protocols]
 
-// link:00._Course_Material/07._Network/01._Slides/06._Wireshark.md[Wireshark]
+link:00._Course_Material/07._Network/01._Slides/02._Network_Layers.md[Network Layers]
+
+link:00._Course_Material/07._Network/01._Slides/03._The_Network_Access_Layer.md[The Network Access Layer]
+
+link:00._Course_Material/07._Network/01._Slides/04._The_Network_Layer.md[The Network Layer]
+
+link:00._Course_Material/07._Network/01._Slides/05._The_Transport_Layer.md[The Transport Layer]
+
+link:00._Course_Material/07._Network/01._Slides/06._The_Application_Layer.md[The Application Layer]
+
+link:00._Course_Material/07._Network/01._Slides/07._Wireshark.md[Wireshark]
 
 a|
 link:00._Course_Material/07._Network/02._Before_Class/install_wireshark.md[Install Wireshark]
@@ -465,15 +476,20 @@ link:00._Course_Material/07._Network/02._Before_Class/install_wireshark.md[Insta
 link:00._Course_Material/07._Network/02._Before_Class/network_protocol_intro_video.md[Network Protocol Intro Video]
 
 a|
-// link:00._Course_Material/07._Network/03._Exercises/01-ip-addresses.md[IP Addresses]
-
-// link:00._Course_Material/07._Network/03._Exercises/02-wireshark.md[Wireshark]
+link:00._Course_Material/07._Network/03._Exercises/01._Wireshark.md[Wireshark]
 
 a|
+link:00._Course_Material/07._Network/04._Homework/01._A_day_in_the_life_of_a_web_page_request.md[01. A day in the life of a web page request]
+
+link:00._Course_Material/07._Network/04._Homework/02._Try_out_a_VPN.md[02. Try out a VPN]
 
 a|
-
-
+You are welcome to deviate from the order below as long as you cover all topics.
+1. What is the difference between the OSI-model and TCP/IP?
+2. Explain the layers in TCP/IP and the protocols that belong to each layer.
+3. Explain ports and how they are used in networking.
+4. Demonstrate HTTP by showing the network tab in your browser.
+5. Demonstrate the protocols by capturing packets in Wireshark. At a minimum show a TCP handshake.
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
