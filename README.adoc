@@ -485,6 +485,7 @@ link:00._Course_Material/07._Network/04._Homework/02._Try_out_a_VPN.md[02. Try o
 
 a|
 You are welcome to deviate from the order below as long as you cover all topics.
+
 1. What is the difference between the OSI-model and TCP/IP?
 2. Explain the layers in TCP/IP and the protocols that belong to each layer.
 3. Explain ports and how they are used in networking.
