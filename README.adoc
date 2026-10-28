@@ -476,7 +476,7 @@ link:00._Course_Material/07._Network/02._Before_Class/install_wireshark.md[Insta
 link:00._Course_Material/07._Network/02._Before_Class/network_protocol_intro_video.md[Network Protocol Intro Video]
 
 a|
-link:00._Course_Material/07._Network/03._Exercises/01._Wireshark.md[Wireshark]
+link:00._Course_Material/07._Network/03._Exercises/01._Wireshark.md[01. ¡Wireshark]
 
 a|
 link:00._Course_Material/07._Network/04._Homework/01._A_day_in_the_life_of_a_web_page_request.md[01. A day in the life of a web page request]
@@ -542,9 +542,9 @@ Nov. +
 a|
 Self-study Exam Preperation
 a|
-link:00._Course_Material/08._Exam_Preparation/03._Exercises/01._Exam_Preparation.md[Exam Preparation]
-a|
 No Lecture
+a|
+link:00._Course_Material/08._Exam_Preparation/03._Exercises/01._Exam_Preparation.md[Exam Preparation]
 a|
 
 a|

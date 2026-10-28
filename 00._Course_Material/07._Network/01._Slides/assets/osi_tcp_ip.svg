@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 790" font-family="Helvetica, Arial, sans-serif">
+  <rect width="1150" height="790" fill="#ffffff"/>
+
+  <!-- Headers -->
+  <text x="240" y="75" font-size="32" font-weight="bold" text-anchor="middle" fill="#1f2430">OSI model</text>
+  <text x="240" y="108" font-size="24" text-anchor="middle" fill="#6c727d">7 layers</text>
+  <text x="700" y="75" font-size="32" font-weight="bold" text-anchor="middle" fill="#1f2430">TCP/IP model</text>
+  <text x="700" y="108" font-size="24" text-anchor="middle" fill="#6c727d">4 layers</text>
+
+  <!-- OSI layers -->
+  <g font-size="28" fill="#1f2430" stroke-width="2.5">
+    <rect x="60" y="130" width="360" height="80" rx="12" fill="#e7f0ff" stroke="#2f6fdb"/>
+    <text x="90" y="180" stroke="none">7  Application</text>
+    <rect x="60" y="220" width="360" height="80" rx="12" fill="#e7f0ff" stroke="#2f6fdb"/>
+    <text x="90" y="270" stroke="none">6  Presentation</text>
+    <rect x="60" y="310" width="360" height="80" rx="12" fill="#e7f0ff" stroke="#2f6fdb"/>
+    <text x="90" y="360" stroke="none">5  Session</text>
+    <rect x="60" y="400" width="360" height="80" rx="12" fill="#e6f7ef" stroke="#1f9d63"/>
+    <text x="90" y="450" stroke="none">4  Transport</text>
+    <rect x="60" y="490" width="360" height="80" rx="12" fill="#fff1e0" stroke="#e07b00"/>
+    <text x="90" y="540" stroke="none">3  Network</text>
+    <rect x="60" y="580" width="360" height="80" rx="12" fill="#f3e9ff" stroke="#7c4dcc"/>
+    <text x="90" y="630" stroke="none">2  Data Link</text>
+    <rect x="60" y="670" width="360" height="80" rx="12" fill="#f3e9ff" stroke="#7c4dcc"/>
+    <text x="90" y="720" stroke="none">1  Physical</text>
+  </g>
+
+  <!-- Connectors: which OSI layers each TCP/IP layer covers -->
+  <g fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M440,140 L470,140 L470,380 L440,380 M470,260 L500,260" stroke="#2f6fdb"/>
+    <path d="M440,440 L500,440" stroke="#1f9d63"/>
+    <path d="M440,530 L500,530" stroke="#e07b00"/>
+    <path d="M440,590 L470,590 L470,740 L440,740 M470,665 L500,665" stroke="#7c4dcc"/>
+  </g>
+
+  <!-- TCP/IP layers -->
+  <g fill="#ffffff" text-anchor="middle">
+    <rect x="520" y="130" width="360" height="260" rx="12" fill="#2f6fdb"/>
+    <text x="700" y="271" font-size="32" font-weight="bold">Application</text>
+
+    <rect x="520" y="400" width="360" height="80" rx="12" fill="#1f9d63"/>
+    <text x="700" y="451" font-size="32" font-weight="bold">Transport</text>
+
+    <rect x="520" y="490" width="360" height="80" rx="12" fill="#e07b00"/>
+    <text x="700" y="526" font-size="32" font-weight="bold">Network</text>
+    <text x="700" y="556" font-size="22">(Internet)</text>
+
+    <rect x="520" y="580" width="360" height="170" rx="12" fill="#7c4dcc"/>
+    <text x="700" y="660" font-size="32" font-weight="bold">Network Access</text>
+    <text x="700" y="692" font-size="22">(Physical + Link)</text>
+  </g>
+
+  <!-- The layers whose protocols TCP/IP defines (Network Access uses Ethernet, Wi-Fi...) -->
+  <path d="M900,140 L930,140 L930,560 L900,560 M930,350 L960,350" fill="none" stroke="#1f2430" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="975" y="342" font-size="28" font-weight="bold" fill="#1f2430">TCP/IP</text>
+  <text x="975" y="376" font-size="28" font-weight="bold" fill="#1f2430">protocols</text>
+</svg>
