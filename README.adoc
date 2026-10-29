@@ -4,6 +4,8 @@
 
 link:00._Course_Material/00._Meta_Course_Material/about_the_course.md[About the course]
 
+link:00._Course_Material/00._Meta_Course_Material/about_the_exam.md[About the exam]
+
 
 == Semester Plan
 
