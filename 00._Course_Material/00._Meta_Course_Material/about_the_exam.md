@@ -22,6 +22,10 @@ You are not allowed to have autocompletion in the Terminal (where it shows you t
 
 # Additional Preparation
 
+This serves as a helpful reminder of what additionally needs to be prepared for the exam. The source of truth is always in the semester plan.
+
+Prepare the links for "Show how you have used Git to collaborate." and "Show an elaborate workflow that you have setup and explain it.".
+
 Remember that the two VMs from the Deploy assignment must be deployed for the exam, you should have access to them both from SSH and the control panel where you can administer it.
 
-Prepare screenshots for Mandatory II. 
+Prepare screenshots for Mandatory II.
